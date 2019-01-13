@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    >
+
+<!--    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:id="@+id/frame_list_student"
+        ></FrameLayout>
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="match_parent"
+        android:id="@+id/frame_info_student"
+        ></FrameLayout>-->
+
+    <fragment
+        android:id="@+id/fragment_student"
+        android:name="com.ducluanxutrieu.ducluan.fragmentdemo.FragmentStudentList"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        />
+    <fragment
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:name="com.ducluanxutrieu.ducluan.fragmentdemo.FragmentStudentInfo"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment_info"
+        />
+</LinearLayout>
